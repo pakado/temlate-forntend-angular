@@ -19,4 +19,7 @@ export class HomeComponent implements OnInit {
     this.posts = this.postsService.getAll();
   }
 
+  onNotify() {
+    window.alert('You will be notified');
+  }
 }

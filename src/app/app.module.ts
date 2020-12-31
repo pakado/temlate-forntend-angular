@@ -17,6 +17,7 @@ import { EditorModule } from '@tinymce/tinymce-angular';
 import {HttpClientInterceptor} from "./http-client-interceptor";
 import { PostComponent } from './post/post.component';
 import {AuthGuard} from "./auth.guard";
+import { AlertComponent } from './alert/alert.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {AuthGuard} from "./auth.guard";
     RegisterSuccessComponent,
     HomeComponent,
     AddPostComponent,
-    PostComponent
+    PostComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,

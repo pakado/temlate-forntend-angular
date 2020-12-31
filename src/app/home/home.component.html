@@ -11,6 +11,10 @@
           <a type="button" href="/post/{{post.id}}" class="read-more btn btn-default">Read More</a>
         </div>
         <hr>
+        <app-alert
+          [alertI]="post"
+          (notify)="onNotify()" >
+        </app-alert>
       </div>
       <hr>
     </div>

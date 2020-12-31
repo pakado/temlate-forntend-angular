@@ -31,7 +31,8 @@ export class AddPostComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public addPost() {
+  public addPost(a: PostPayload) {
+    alert(a.title);
     this.postPayload.title = this.addPostForm.get('title').value;
     this.postPayload.content = this.addPostForm.get('body').value;
     this.postPayload.username = localStorage.getItem('username');

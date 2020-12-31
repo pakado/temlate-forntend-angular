@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fuse-2420e": {
+      "hosting": {
+        "frontendSpringPA": [
+          "fuse-2420e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "template-angular-be2fb"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "rulesFile": "database.rules.json",
+
+  "hosting": {
+    "public": "dist/frontendSpringPA",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+
+}
